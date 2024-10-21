@@ -1,7 +1,7 @@
 {
   "name": "nodejs-basics",
   "version": "1.0.0",
-  "main": "sum-nums.js",
+  "main": "draw-to-file.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
