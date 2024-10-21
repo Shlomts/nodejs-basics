@@ -2,6 +2,7 @@
   "name": "nodejs-basics",
   "version": "1.0.0",
   "main": "about-time.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "ms": "^2.1.3"
   }
 }
