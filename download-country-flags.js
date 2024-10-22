@@ -25,12 +25,7 @@ function getCountries() {
         const raw = utilService
             .readJsonFile("data/countries.json")
             .then((rawData) => {
-                let sortData = rawData.sort((a, b) => {
-                    const x = a.population
-                    const y = b.population
-                    return x > y ? -1 : x < y ? 1 : 0
-                })
-
+                let sortData = rawData.sort((a, b) => b.population - a.population )
                 for (let i = 0; i < 5; i++) {
                     countries.push(sortData[i])
                 }
