@@ -1,7 +1,7 @@
 {
   "name": "nodejs-basics",
   "version": "1.0.0",
-  "main": "draw-to-file.js",
+  "main": "download-country-flags.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
